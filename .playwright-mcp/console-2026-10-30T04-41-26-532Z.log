@@ -1,0 +1,107 @@
+[    1127ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:37388
+[    2010ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:3000/static/js/bundle.js:40661
+[    2010ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:3000/static/js/bundle.js:40661
+[  137847ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.6757858e0bbf6fb6aed7.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at updateFunctionComponent (http://localhost:3000/static/js/bundle.js:28664:24)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30383:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:15352:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:15396:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:15453:35)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35352:11)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+[  137850ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.6757858e0bbf6fb6aed7.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at updateFunctionComponent (http://localhost:3000/static/js/bundle.js:28664:24)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30383:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:15352:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:15396:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:15453:35)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35352:11)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+[  137851ms] [ERROR] The above error occurred in the <ProtectedRoute> component:
+
+    at ProtectedRoute (http://localhost:3000/main.6757858e0bbf6fb6aed7.hot-update.js:30:68)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:40245:5)
+    at Outlet (http://localhost:3000/static/js/bundle.js:40892:26)
+    at main
+    at div
+    at div
+    at Layout (http://localhost:3000/static/js/bundle.js:297:68)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:40245:5)
+    at Routes (http://localhost:3000/static/js/bundle.js:40979:5)
+    at AppRouter (http://localhost:3000/static/js/bundle.js:51:68)
+    at AuthProvider (http://localhost:3000/static/js/bundle.js:784:3)
+    at App
+    at Router (http://localhost:3000/static/js/bundle.js:40913:15)
+    at BrowserRouter (http://localhost:3000/static/js/bundle.js:38818:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/static/js/bundle.js:27876
+[  137855ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.6757858e0bbf6fb6aed7.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at updateFunctionComponent (http://localhost:3000/static/js/bundle.js:28664:24)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30383:20)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35330:18)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+    at renderRootSync (http://localhost:3000/static/js/bundle.js:34496:11)
+    at recoverFromConcurrentError (http://localhost:3000/static/js/bundle.js:33988:24)
+    at performSyncWorkOnRoot (http://localhost:3000/static/js/bundle.js:34197:24)
+[  147460ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.c1d6bdd96e836dcf3ad6.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at mountIndeterminateComponent (http://localhost:3000/static/js/bundle.js:29068:17)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30371:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:15352:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:15396:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:15453:35)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35352:11)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+[  147463ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.c1d6bdd96e836dcf3ad6.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at mountIndeterminateComponent (http://localhost:3000/static/js/bundle.js:29068:17)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30371:20)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:15352:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:15396:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:15453:35)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35352:11)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+[  147463ms] [ERROR] The above error occurred in the <ProtectedRoute> component:
+
+    at ProtectedRoute (http://localhost:3000/main.c1d6bdd96e836dcf3ad6.hot-update.js:30:68)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:40245:5)
+    at Outlet (http://localhost:3000/static/js/bundle.js:40892:26)
+    at main
+    at div
+    at div
+    at Layout (http://localhost:3000/static/js/bundle.js:297:68)
+    at RenderedRoute (http://localhost:3000/static/js/bundle.js:40245:5)
+    at Routes (http://localhost:3000/static/js/bundle.js:40979:5)
+    at AppRouter (http://localhost:3000/static/js/bundle.js:51:68)
+    at AuthProvider (http://localhost:3000/static/js/bundle.js:784:3)
+    at App
+    at Router (http://localhost:3000/static/js/bundle.js:40913:15)
+    at BrowserRouter (http://localhost:3000/static/js/bundle.js:38818:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/static/js/bundle.js:27876
+[  147464ms] ReferenceError: children is not defined
+    at ProtectedRoute (http://localhost:3000/main.c1d6bdd96e836dcf3ad6.hot-update.js:41:15)
+    at renderWithHooks (http://localhost:3000/static/js/bundle.js:25096:22)
+    at mountIndeterminateComponent (http://localhost:3000/static/js/bundle.js:29068:17)
+    at beginWork (http://localhost:3000/static/js/bundle.js:30371:20)
+    at beginWork$1 (http://localhost:3000/static/js/bundle.js:35330:18)
+    at performUnitOfWork (http://localhost:3000/static/js/bundle.js:34600:16)
+    at workLoopSync (http://localhost:3000/static/js/bundle.js:34523:9)
+    at renderRootSync (http://localhost:3000/static/js/bundle.js:34496:11)
+    at recoverFromConcurrentError (http://localhost:3000/static/js/bundle.js:33988:24)
+    at performConcurrentWorkOnRoot (http://localhost:3000/static/js/bundle.js:33901:26)

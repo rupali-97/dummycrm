@@ -1,0 +1,46 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - link "ClinicCRM" [ref=e6] [cursor=pointer]:
+      - /url: /dashboard
+    - navigation [ref=e7]:
+      - link "📊 Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e9]: 📊
+        - text: Dashboard
+      - link "👥 Patients" [ref=e10] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=e11]: 👥
+        - text: Patients
+      - link "👨‍⚕️ Doctors" [ref=e12] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=e13]: 👨‍⚕️
+        - text: Doctors
+      - link "📅 Appointments" [ref=e14] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=e15]: 📅
+        - text: Appointments
+      - link "📝 Prescriptions" [ref=e16] [cursor=pointer]:
+        - /url: /prescriptions
+        - generic [ref=e17]: 📝
+        - text: Prescriptions
+      - link "💳 Billing" [ref=e18] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=e19]: 💳
+        - text: Billing
+      - link "📈 Reports" [ref=e20] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=e21]: 📈
+        - text: Reports
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: admin
+        - generic [ref=e25]: admin
+      - button "Logout" [ref=e26] [cursor=pointer]
+  - generic [ref=e27]:
+    - banner [ref=e28]:
+      - generic [ref=e29]:
+        - button "☰" [ref=e30] [cursor=pointer]
+        - heading "Clinic CRM" [level=1] [ref=e31]
+        - generic [ref=e32]: admin (admin)
+    - main [ref=e34]:
+      - generic [ref=e35]: Loading clinic overview...

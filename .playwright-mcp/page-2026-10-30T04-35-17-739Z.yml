@@ -1,0 +1,128 @@
+- generic [ref=f1e17]:
+  - generic [ref=f1e18]:
+    - generic [ref=f1e19]:
+      - heading "Dashboard" [level=1] [ref=f1e20]
+      - paragraph [ref=f1e21]: Welcome back to your clinic management overview
+    - link "+ Book Appointment" [ref=f1e23] [cursor=pointer]:
+      - /url: /appointments
+  - generic [ref=f1e24]:
+    - generic [ref=f1e25]:
+      - generic [ref=f1e26]:
+        - generic [ref=f1e27]: Total Patients
+        - generic [ref=f1e28]: "5"
+      - generic [ref=f1e29]: 👥
+    - generic [ref=f1e30]:
+      - generic [ref=f1e31]:
+        - generic [ref=f1e32]: Total Doctors
+        - generic [ref=f1e33]: "4"
+      - generic [ref=f1e34]: 👨‍⚕️
+    - generic [ref=f1e35]:
+      - generic [ref=f1e36]:
+        - generic [ref=f1e37]: Scheduled
+        - generic [ref=f1e38]: "3"
+      - generic [ref=f1e39]: 📅
+    - generic [ref=f1e40]:
+      - generic [ref=f1e41]:
+        - generic [ref=f1e42]: Total Revenue
+        - generic [ref=f1e43]: $220.00
+      - generic [ref=f1e44]: 💰
+    - generic [ref=f1e45]:
+      - generic [ref=f1e46]:
+        - generic [ref=f1e47]: Today's Visits
+        - generic [ref=f1e48]: "0"
+      - generic [ref=f1e49]: 🏥
+  - generic [ref=f1e50]:
+    - heading "Quick Actions" [level=3] [ref=f1e51]
+    - generic [ref=f1e52]:
+      - link "👥 Add Patient Get started in one tap" [ref=f1e53] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=f1e54]: 👥
+        - heading "Add Patient" [level=4] [ref=f1e55]
+        - paragraph [ref=f1e56]: Get started in one tap
+      - link "👨‍⚕️ Add Doctor Get started in one tap" [ref=f1e57] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=f1e58]: 👨‍⚕️
+        - heading "Add Doctor" [level=4] [ref=f1e59]
+        - paragraph [ref=f1e60]: Get started in one tap
+      - link "📅 Book Appointment Get started in one tap" [ref=f1e61] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=f1e62]: 📅
+        - heading "Book Appointment" [level=4] [ref=f1e63]
+        - paragraph [ref=f1e64]: Get started in one tap
+      - link "💳 New Billing Get started in one tap" [ref=f1e65] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=f1e66]: 💳
+        - heading "New Billing" [level=4] [ref=f1e67]
+        - paragraph [ref=f1e68]: Get started in one tap
+  - generic [ref=f1e69]:
+    - generic [ref=f1e70]:
+      - heading "Appointments by Status" [level=3] [ref=f1e71]
+      - generic [ref=f1e72]:
+        - generic [ref=f1e73]:
+          - generic [ref=f1e74]: scheduled
+          - generic [ref=f1e75]: "3"
+        - generic [ref=f1e76]:
+          - generic [ref=f1e77]: completed
+          - generic [ref=f1e78]: "1"
+        - generic [ref=f1e79]:
+          - generic [ref=f1e80]: cancelled
+          - generic [ref=f1e81]: "1"
+    - generic [ref=f1e82]:
+      - heading "Billing by Status" [level=3] [ref=f1e83]
+      - generic [ref=f1e84]:
+        - generic [ref=f1e85]:
+          - generic [ref=f1e86]: paid
+          - generic [ref=f1e87]: $220.00
+        - generic [ref=f1e88]:
+          - generic [ref=f1e89]: pending
+          - generic [ref=f1e90]: $330.00
+  - generic [ref=f1e91]:
+    - generic [ref=f1e92]:
+      - heading "Recent Appointments" [level=3] [ref=f1e93]
+      - link "View All" [ref=f1e94] [cursor=pointer]:
+        - /url: /appointments
+    - table [ref=f1e95]:
+      - rowgroup [ref=f1e96]:
+        - row [ref=f1e97]:
+          - columnheader "Patient" [ref=f1e98]
+          - columnheader "Doctor" [ref=f1e99]
+          - columnheader "Date" [ref=f1e100]
+          - columnheader "Time" [ref=f1e101]
+          - columnheader "Status" [ref=f1e102]
+          - columnheader "Reason" [ref=f1e103]
+      - rowgroup [ref=f1e104]:
+        - row [ref=f1e105]:
+          - cell "Michael Brown" [ref=f1e106]
+          - cell "Sarah Wilson" [ref=f1e107]
+          - cell "2026-11-06T18:30:00.000Z" [ref=f1e108]
+          - cell "09:30:00" [ref=f1e109]
+          - cell "cancelled" [ref=f1e110]
+          - cell "-" [ref=f1e112]
+        - row [ref=f1e113]:
+          - cell "Emily Davis" [ref=f1e114]
+          - cell "David Martinez" [ref=f1e115]
+          - cell "2026-11-05T18:30:00.000Z" [ref=f1e116]
+          - cell "14:00:00" [ref=f1e117]
+          - cell "scheduled" [ref=f1e118]
+          - cell "-" [ref=f1e120]
+        - row [ref=f1e121]:
+          - cell "Robert Johnson" [ref=f1e122]
+          - cell "Linda Garcia" [ref=f1e123]
+          - cell "2026-11-05T18:30:00.000Z" [ref=f1e124]
+          - cell "11:00:00" [ref=f1e125]
+          - cell "completed" [ref=f1e126]
+          - cell "-" [ref=f1e128]
+        - row [ref=f1e129]:
+          - cell "Jane Smith" [ref=f1e130]
+          - cell "James Miller" [ref=f1e131]
+          - cell "2026-11-04T18:30:00.000Z" [ref=f1e132]
+          - cell "10:30:00" [ref=f1e133]
+          - cell "scheduled" [ref=f1e134]
+          - cell "-" [ref=f1e136]
+        - row [ref=f1e137]:
+          - cell "John Doe" [ref=f1e138]
+          - cell "Sarah Wilson" [ref=f1e139]
+          - cell "2026-11-04T18:30:00.000Z" [ref=f1e140]
+          - cell "09:00:00" [ref=f1e141]
+          - cell "scheduled" [ref=f1e142]
+          - cell "-" [ref=f1e144]

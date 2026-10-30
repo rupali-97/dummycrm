@@ -1,0 +1,88 @@
+- generic [ref=e3]:
+  - alert [ref=e4]:
+    - generic [ref=e5]: ❌
+    - generic [ref=e6]:
+      - generic [ref=e7]: Failed to load dashboard
+      - text: Could not retrieve clinic overview.
+    - button "Dismiss" [ref=e8] [cursor=pointer]: ×
+  - alert [ref=e9]:
+    - generic [ref=e10]: ❌
+    - generic [ref=e11]:
+      - generic [ref=e12]: Failed to load dashboard
+      - text: Could not retrieve clinic overview.
+    - button "Dismiss" [ref=e13] [cursor=pointer]: ×
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Dashboard" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Welcome back to your clinic management overview
+    - link "+ Book Appointment" [ref=e19] [cursor=pointer]:
+      - /url: /appointments
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Total Patients
+        - generic [ref=e24]: "0"
+      - generic [ref=e25]: 👥
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Total Doctors
+        - generic [ref=e29]: "0"
+      - generic [ref=e30]: 👨‍⚕️
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Scheduled
+        - generic [ref=e34]: "0"
+      - generic [ref=e35]: 📅
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]: Total Revenue
+        - generic [ref=e39]: $0.00
+      - generic [ref=e40]: 💰
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: Today's Visits
+        - generic [ref=e44]: "0"
+      - generic [ref=e45]: 🏥
+  - generic [ref=e46]:
+    - heading "Quick Actions" [level=3] [ref=e47]
+    - generic [ref=e48]:
+      - link "👥 Add Patient Get started in one tap" [ref=e49] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=e50]: 👥
+        - heading "Add Patient" [level=4] [ref=e51]
+        - paragraph [ref=e52]: Get started in one tap
+      - link "👨‍⚕️ Add Doctor Get started in one tap" [ref=e53] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=e54]: 👨‍⚕️
+        - heading "Add Doctor" [level=4] [ref=e55]
+        - paragraph [ref=e56]: Get started in one tap
+      - link "📅 Book Appointment Get started in one tap" [ref=e57] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=e58]: 📅
+        - heading "Book Appointment" [level=4] [ref=e59]
+        - paragraph [ref=e60]: Get started in one tap
+      - link "💳 New Billing Get started in one tap" [ref=e61] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=e62]: 💳
+        - heading "New Billing" [level=4] [ref=e63]
+        - paragraph [ref=e64]: Get started in one tap
+  - generic [ref=e65]:
+    - generic [ref=e66]:
+      - heading "Appointments by Status" [level=3] [ref=e67]
+      - generic [ref=e69]:
+        - generic [ref=e70]: No data
+        - generic [ref=e71]: "0"
+    - generic [ref=e72]:
+      - heading "Billing by Status" [level=3] [ref=e73]
+      - generic [ref=e75]:
+        - generic [ref=e76]: No data
+        - generic [ref=e77]: $0.00
+  - generic [ref=e78]:
+    - generic [ref=e79]:
+      - heading "Recent Appointments" [level=3] [ref=e80]
+      - link "View All" [ref=e81] [cursor=pointer]:
+        - /url: /appointments
+    - generic [ref=e82]:
+      - generic [ref=e83]: 📅
+      - heading "No appointments yet" [level=3] [ref=e84]
+      - paragraph [ref=e85]: Book your first appointment to see it here.

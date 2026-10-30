@@ -1,0 +1,103 @@
+- generic [ref=f9e3]:
+  - complementary [ref=f9e4]:
+    - link "ClinicCRM" [ref=f9e6] [cursor=pointer]:
+      - /url: /dashboard
+    - navigation [ref=f9e7]:
+      - link "📊 Dashboard" [ref=f9e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=f9e9]: 📊
+        - text: Dashboard
+      - link "👥 Patients" [ref=f9e10] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=f9e11]: 👥
+        - text: Patients
+      - link "👨‍⚕️ Doctors" [ref=f9e12] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=f9e13]: 👨‍⚕️
+        - text: Doctors
+      - link "📅 Appointments" [ref=f9e14] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=f9e15]: 📅
+        - text: Appointments
+      - link "📝 Prescriptions" [ref=f9e16] [cursor=pointer]:
+        - /url: /prescriptions
+        - generic [ref=f9e17]: 📝
+        - text: Prescriptions
+      - link "💳 Billing" [ref=f9e18] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=f9e19]: 💳
+        - text: Billing
+      - link "📈 Reports" [ref=f9e20] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=f9e21]: 📈
+        - text: Reports
+    - generic [ref=f9e22]:
+      - generic [ref=f9e23]:
+        - generic [ref=f9e24]: admin
+        - generic [ref=f9e25]: admin
+      - button "Logout" [ref=f9e26] [cursor=pointer]
+  - generic [ref=f9e27]:
+    - banner [ref=f9e28]:
+      - generic [ref=f9e29]:
+        - button "☰" [ref=f9e30] [cursor=pointer]
+        - heading "Clinic CRM" [level=1] [ref=f9e31]
+        - generic [ref=f9e32]: admin (admin)
+    - main [ref=f9e34]:
+      - generic [ref=f9e35]:
+        - generic [ref=f9e36]:
+          - generic [ref=f9e37]:
+            - heading "Doctors" [level=1] [ref=f9e38]
+            - paragraph [ref=f9e39]: Manage clinic physicians and specialists
+          - generic [ref=f9e40]:
+            - generic [ref=f9e41]: 🔍
+            - textbox "Search by name, specialty or email" [ref=f9e42]: neurology
+          - button "+ Add Doctor" [ref=f9e43] [cursor=pointer]
+        - generic [ref=f9e44]:
+          - heading "Doctor Directory (1)" [level=3] [ref=f9e147]
+          - table [ref=f9e47]:
+            - rowgroup [ref=f9e48]:
+              - row [ref=f9e49]:
+                - columnheader "Name" [ref=f9e50]
+                - columnheader "Specialty" [ref=f9e51]
+                - columnheader "Email" [ref=f9e52]
+                - columnheader "Phone" [ref=f9e53]
+                - columnheader "License" [ref=f9e54]
+                - columnheader "Actions" [ref=f9e55]
+            - rowgroup [ref=f9e56]:
+              - row [ref=f9e136]:
+                - cell "Carlos Ruiz" [ref=f9e137]
+                - cell "Neurology" [ref=f9e139]
+                - cell "carlos.ruiz@clinic.com" [ref=f9e141]
+                - cell "555-2005" [ref=f9e142]
+                - cell "LIC-1005" [ref=f9e143]
+                - cell [ref=f9e144]:
+                  - button "Edit" [active] [ref=f9e145] [cursor=pointer]
+                  - button "Delete" [ref=f9e146] [cursor=pointer]
+        - dialog [ref=f9e101]:
+          - generic [ref=f9e103]:
+            - button "Close" [ref=f9e104] [cursor=pointer]: ×
+            - heading "Edit Doctor" [level=3] [ref=f9e148]
+            - paragraph [ref=f9e106]: Update physician details.
+            - generic [ref=f9e107]:
+              - generic [ref=f9e108]:
+                - generic [ref=f9e109]:
+                  - generic [ref=f9e110]: First Name
+                  - textbox [ref=f9e111]: Carlos
+                - generic [ref=f9e112]:
+                  - generic [ref=f9e113]: Last Name
+                  - textbox [ref=f9e114]: Ruiz
+                - generic [ref=f9e115]:
+                  - generic [ref=f9e116]: Email
+                  - textbox [ref=f9e117]: carlos.ruiz@clinic.com
+                - generic [ref=f9e118]:
+                  - generic [ref=f9e119]: Phone
+                  - textbox [ref=f9e120]: 555-2005
+                - generic [ref=f9e121]:
+                  - generic [ref=f9e122]: Specialty
+                  - textbox [ref=f9e123]: Neurology
+                - generic [ref=f9e124]:
+                  - generic [ref=f9e125]: License Number
+                  - textbox [ref=f9e126]: LIC-1005
+              - generic [ref=f9e127]:
+                - button "Cancel" [ref=f9e128] [cursor=pointer]
+                - button "Update Doctor" [ref=f9e149] [cursor=pointer]

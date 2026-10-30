@@ -1,0 +1,117 @@
+- generic [ref=f9e3]:
+  - complementary [ref=f9e4]:
+    - link "ClinicCRM" [ref=f9e6] [cursor=pointer]:
+      - /url: /dashboard
+    - navigation [ref=f9e7]:
+      - link "📊 Dashboard" [ref=f9e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=f9e9]: 📊
+        - text: Dashboard
+      - link "👥 Patients" [ref=f9e10] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=f9e11]: 👥
+        - text: Patients
+      - link "👨‍⚕️ Doctors" [ref=f9e12] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=f9e13]: 👨‍⚕️
+        - text: Doctors
+      - link "📅 Appointments" [ref=f9e14] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=f9e15]: 📅
+        - text: Appointments
+      - link "📝 Prescriptions" [ref=f9e16] [cursor=pointer]:
+        - /url: /prescriptions
+        - generic [ref=f9e17]: 📝
+        - text: Prescriptions
+      - link "💳 Billing" [ref=f9e18] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=f9e19]: 💳
+        - text: Billing
+      - link "📈 Reports" [ref=f9e20] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=f9e21]: 📈
+        - text: Reports
+    - generic [ref=f9e22]:
+      - generic [ref=f9e23]:
+        - generic [ref=f9e24]: admin
+        - generic [ref=f9e25]: admin
+      - button "Logout" [ref=f9e26] [cursor=pointer]
+  - generic [ref=f9e27]:
+    - banner [ref=f9e28]:
+      - generic [ref=f9e29]:
+        - button "☰" [ref=f9e30] [cursor=pointer]
+        - heading "Clinic CRM" [level=1] [ref=f9e31]
+        - generic [ref=f9e32]: admin (admin)
+    - main [ref=f9e34]:
+      - generic [ref=f9e35]:
+        - alert [ref=f9e150]:
+          - generic [ref=f9e151]: ✅
+          - generic [ref=f9e152]:
+            - generic [ref=f9e153]: Doctor updated
+            - text: The doctor record was saved successfully.
+          - button "Dismiss" [ref=f9e154] [cursor=pointer]: ×
+        - generic [ref=f9e36]:
+          - generic [ref=f9e37]:
+            - heading "Doctors" [level=1] [ref=f9e38]
+            - paragraph [ref=f9e39]: Manage clinic physicians and specialists
+          - generic [ref=f9e40]:
+            - generic [ref=f9e41]: 🔍
+            - textbox "Search by name, specialty or email" [ref=f9e42]: neurology
+          - button "+ Add Doctor" [ref=f9e43] [cursor=pointer]
+        - generic [ref=f9e44]:
+          - heading "Doctor Directory (5)" [level=3] [ref=f9e155]
+          - table [ref=f9e47]:
+            - rowgroup [ref=f9e48]:
+              - row [ref=f9e49]:
+                - columnheader "Name" [ref=f9e50]
+                - columnheader "Specialty" [ref=f9e51]
+                - columnheader "Email" [ref=f9e52]
+                - columnheader "Phone" [ref=f9e53]
+                - columnheader "License" [ref=f9e54]
+                - columnheader "Actions" [ref=f9e55]
+            - rowgroup [ref=f9e56]:
+              - row [ref=f9e156]:
+                - cell "Linda Garcia" [ref=f9e157]
+                - cell "Dermatology" [ref=f9e159]
+                - cell "linda.garcia@clinic.com" [ref=f9e161]
+                - cell "555-2003" [ref=f9e162]
+                - cell "LIC-1003" [ref=f9e163]
+                - cell [ref=f9e164]:
+                  - button "Edit" [ref=f9e165] [cursor=pointer]
+                  - button "Delete" [ref=f9e166] [cursor=pointer]
+              - row [ref=f9e167]:
+                - cell "David Martinez" [ref=f9e168]
+                - cell "Orthopedics" [ref=f9e170]
+                - cell "david.martinez@clinic.com" [ref=f9e172]
+                - cell "555-2004" [ref=f9e173]
+                - cell "LIC-1004" [ref=f9e174]
+                - cell [ref=f9e175]:
+                  - button "Edit" [ref=f9e176] [cursor=pointer]
+                  - button "Delete" [ref=f9e177] [cursor=pointer]
+              - row [ref=f9e178]:
+                - cell "James Miller" [ref=f9e179]
+                - cell "Pediatrics" [ref=f9e181]
+                - cell "james.miller@clinic.com" [ref=f9e183]
+                - cell "555-2002" [ref=f9e184]
+                - cell "LIC-1002" [ref=f9e185]
+                - cell [ref=f9e186]:
+                  - button "Edit" [ref=f9e187] [cursor=pointer]
+                  - button "Delete" [ref=f9e188] [cursor=pointer]
+              - row [ref=f9e189]:
+                - cell "Carlos Ruiz" [ref=f9e137]
+                - cell "Neurosurgery" [ref=f9e190]
+                - cell "carlos.ruiz@clinic.com" [ref=f9e141]
+                - cell "555-2005" [ref=f9e142]
+                - cell "LIC-1005" [ref=f9e143]
+                - cell [ref=f9e144]:
+                  - button "Edit" [ref=f9e145] [cursor=pointer]
+                  - button "Delete" [ref=f9e146] [cursor=pointer]
+              - row [ref=f9e191]:
+                - cell "Sarah Wilson" [ref=f9e192]
+                - cell "Cardiology" [ref=f9e194]
+                - cell "sarah.wilson@clinic.com" [ref=f9e196]
+                - cell "555-2001" [ref=f9e197]
+                - cell "LIC-1001" [ref=f9e198]
+                - cell [ref=f9e199]:
+                  - button "Edit" [ref=f9e200] [cursor=pointer]
+                  - button "Delete" [ref=f9e201] [cursor=pointer]

@@ -1,0 +1,180 @@
+- generic [ref=f10e3]:
+  - complementary [ref=f10e4]:
+    - link "ClinicCRM" [ref=f10e6] [cursor=pointer]:
+      - /url: /dashboard
+    - navigation [ref=f10e7]:
+      - link "📊 Dashboard" [ref=f10e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=f10e9]: 📊
+        - text: Dashboard
+      - link "👥 Patients" [ref=f10e10] [cursor=pointer]:
+        - /url: /patients
+        - generic [ref=f10e11]: 👥
+        - text: Patients
+      - link "👨‍⚕️ Doctors" [ref=f10e12] [cursor=pointer]:
+        - /url: /doctors
+        - generic [ref=f10e13]: 👨‍⚕️
+        - text: Doctors
+      - link "📅 Appointments" [ref=f10e14] [cursor=pointer]:
+        - /url: /appointments
+        - generic [ref=f10e15]: 📅
+        - text: Appointments
+      - link "📝 Prescriptions" [ref=f10e16] [cursor=pointer]:
+        - /url: /prescriptions
+        - generic [ref=f10e17]: 📝
+        - text: Prescriptions
+      - link "💳 Billing" [ref=f10e18] [cursor=pointer]:
+        - /url: /billing
+        - generic [ref=f10e19]: 💳
+        - text: Billing
+      - link "📈 Reports" [ref=f10e20] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=f10e21]: 📈
+        - text: Reports
+    - generic [ref=f10e22]:
+      - generic [ref=f10e23]:
+        - generic [ref=f10e24]: admin
+        - generic [ref=f10e25]: admin
+      - button "Logout" [ref=f10e26] [cursor=pointer]
+  - generic [ref=f10e27]:
+    - banner [ref=f10e28]:
+      - generic [ref=f10e29]:
+        - button "☰" [ref=f10e30] [cursor=pointer]
+        - heading "Clinic CRM" [level=1] [ref=f10e31]
+        - generic [ref=f10e32]: admin (admin)
+    - main [ref=f10e34]:
+      - generic [ref=f10e35]:
+        - generic [ref=f10e36]:
+          - generic [ref=f10e37]:
+            - heading "Appointments" [level=1] [ref=f10e38]
+            - paragraph [ref=f10e39]: Schedule, track and manage patient visits
+          - generic [ref=f10e40]:
+            - combobox [ref=f10e41]:
+              - option "All statuses" [selected]
+              - option "Scheduled"
+              - option "Completed"
+              - option "Cancelled"
+            - combobox [ref=f10e42]:
+              - option "All doctors"
+              - option "Linda Garcia"
+              - option "David Martinez"
+              - option "James Miller"
+              - option "Carlos Ruiz" [selected]
+              - option "Sarah Wilson"
+            - button "+ Book Appointment" [ref=f10e43] [cursor=pointer]
+        - generic [ref=f10e44]:
+          - heading "Appointment Schedule (6)" [level=3] [ref=f10e157]
+          - table [ref=f10e47]:
+            - rowgroup [ref=f10e48]:
+              - row [ref=f10e49]:
+                - columnheader "Patient" [ref=f10e50]
+                - columnheader "Doctor" [ref=f10e51]
+                - columnheader "Date" [ref=f10e52]
+                - columnheader "Time" [ref=f10e53]
+                - columnheader "Status" [ref=f10e54]
+                - columnheader "Reason" [ref=f10e55]
+                - columnheader "Actions" [ref=f10e56]
+            - rowgroup [ref=f10e57]:
+              - row [ref=f10e158]:
+                - cell "John Doe" [ref=f10e159]
+                - cell "Carlos Ruiz" [ref=f10e161]
+                - cell "2026-11-30T18:30:00.000Z" [ref=f10e163]
+                - cell "10:00:00" [ref=f10e164]
+                - cell "scheduled" [ref=f10e165]
+                - cell "Follow-up consultation" [ref=f10e167]
+                - cell [ref=f10e168]:
+                  - button "Edit" [ref=f10e169] [cursor=pointer]
+                  - button "Delete" [ref=f10e170] [cursor=pointer]
+              - row [ref=f10e58]:
+                - cell "Michael Brown" [ref=f10e59]
+                - cell "Sarah Wilson" [ref=f10e61]
+                - cell "2026-11-06T18:30:00.000Z" [ref=f10e63]
+                - cell "09:30:00" [ref=f10e64]
+                - cell "cancelled" [ref=f10e65]
+                - cell "Blood pressure review" [ref=f10e67]
+                - cell [ref=f10e68]:
+                  - button "Edit" [ref=f10e69] [cursor=pointer]
+                  - button "Delete" [ref=f10e70] [cursor=pointer]
+              - row [ref=f10e71]:
+                - cell "Robert Johnson" [ref=f10e72]
+                - cell "Linda Garcia" [ref=f10e74]
+                - cell "2026-11-05T18:30:00.000Z" [ref=f10e76]
+                - cell "11:00:00" [ref=f10e77]
+                - cell "completed" [ref=f10e78]
+                - cell "Skin rash consultation" [ref=f10e80]
+                - cell [ref=f10e81]:
+                  - button "Edit" [ref=f10e82] [cursor=pointer]
+                  - button "Delete" [ref=f10e83] [cursor=pointer]
+              - row [ref=f10e84]:
+                - cell "Emily Davis" [ref=f10e85]
+                - cell "David Martinez" [ref=f10e87]
+                - cell "2026-11-05T18:30:00.000Z" [ref=f10e89]
+                - cell "14:00:00" [ref=f10e90]
+                - cell "scheduled" [ref=f10e91]
+                - cell "Knee pain follow-up" [ref=f10e93]
+                - cell [ref=f10e94]:
+                  - button "Edit" [ref=f10e95] [cursor=pointer]
+                  - button "Delete" [ref=f10e96] [cursor=pointer]
+              - row [ref=f10e97]:
+                - cell "John Doe" [ref=f10e98]
+                - cell "Sarah Wilson" [ref=f10e100]
+                - cell "2026-11-04T18:30:00.000Z" [ref=f10e102]
+                - cell "09:00:00" [ref=f10e103]
+                - cell "scheduled" [ref=f10e104]
+                - cell "Regular heart checkup" [ref=f10e106]
+                - cell [ref=f10e107]:
+                  - button "Edit" [ref=f10e108] [cursor=pointer]
+                  - button "Delete" [ref=f10e109] [cursor=pointer]
+              - row [ref=f10e110]:
+                - cell "Jane Smith" [ref=f10e111]
+                - cell "James Miller" [ref=f10e113]
+                - cell "2026-11-04T18:30:00.000Z" [ref=f10e115]
+                - cell "10:30:00" [ref=f10e116]
+                - cell "scheduled" [ref=f10e117]
+                - cell "Child vaccination" [ref=f10e119]
+                - cell [ref=f10e120]:
+                  - button "Edit" [ref=f10e121] [cursor=pointer]
+                  - button "Delete" [ref=f10e122] [cursor=pointer]
+        - dialog [ref=f10e123]:
+          - generic [ref=f10e125]:
+            - button "Close" [ref=f10e126] [cursor=pointer]: ×
+            - heading "Edit Appointment" [level=3] [ref=f10e171]
+            - paragraph [ref=f10e128]: Change visit details.
+            - generic [ref=f10e129]:
+              - generic [ref=f10e130]:
+                - generic [ref=f10e131]:
+                  - generic [ref=f10e132]: Patient
+                  - combobox [active] [ref=f10e133]:
+                    - option "Select patient"
+                    - option "Michael Brown"
+                    - option "Emily Davis"
+                    - option "John Doe" [selected]
+                    - option "Robert Johnson"
+                    - option "Jane Smith"
+                - generic [ref=f10e134]:
+                  - generic [ref=f10e135]: Doctor
+                  - combobox [ref=f10e136]:
+                    - option "Select doctor"
+                    - option "Linda Garcia - Dermatology"
+                    - option "David Martinez - Orthopedics"
+                    - option "James Miller - Pediatrics"
+                    - option "Carlos Ruiz - Neurosurgery" [selected]
+                    - option "Sarah Wilson - Cardiology"
+                - generic [ref=f10e137]:
+                  - generic [ref=f10e138]: Date
+                  - textbox [ref=f10e139]
+                - generic [ref=f10e140]:
+                  - generic [ref=f10e141]: Time
+                  - textbox [ref=f10e142]: 10:00:00
+                - generic [ref=f10e143]:
+                  - generic [ref=f10e144]: Status
+                  - combobox [ref=f10e145]:
+                    - option "Scheduled" [selected]
+                    - option "Completed"
+                    - option "Cancelled"
+                - generic [ref=f10e146]:
+                  - generic [ref=f10e147]: Reason
+                  - textbox [ref=f10e148]: Follow-up consultation
+              - generic [ref=f10e149]:
+                - button "Cancel" [ref=f10e150] [cursor=pointer]
+                - button "Update Appointment" [ref=f10e172] [cursor=pointer]
